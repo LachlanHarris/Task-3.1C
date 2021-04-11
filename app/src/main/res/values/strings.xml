@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">3_1</string>
+    <string name="QuizTitle">SIT305 Quiz App</string>
+    <string name="question1">Which of these is not a view object</string>
+    <string name="question2">if you wanted a view to exactly match the width of the screen, which of the following layout parameters would you use</string>
+    <string name="question3">which of the following programming languages cannot be used in android studio</string>
+    <string name="question4">which of the following is not a possible lifecycle state of an activity</string>
+    <string name="question5">which of the following is an input control</string>
+    <string name="question1title">View objects</string>
+    <string name="question2title">Layout Parameters</string>
+    <string name="question3title">Compatible Languages</string>
+    <string name="question4title">Activity Lifecycle</string>
+    <string name="question5title">Input Controls</string>
+
+</resources>

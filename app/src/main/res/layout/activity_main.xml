@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:padding="10dp"
+        android:text="@string/QuizTitle"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#000000"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/NamePromptText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingTop="200dp"
+            android:paddingRight="20dp"
+            android:text="Enter your name: "
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTextPersonName"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="40"
+            android:inputType="textPersonName"
+            android:paddingLeft="40dp"
+            android:paddingTop="200dp"
+            android:text=""
+            android:textColor="#000000" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/StartButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="273dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="100dp"
+        android:text="Start"
+        android:textColor="#000000" />
+
+
+</android.widget.LinearLayout>
